@@ -1,2 +1,2 @@
 # DockerTraining
-Just a project to learn Docker Comcepts
+Just a project to learn Docker Concepts
