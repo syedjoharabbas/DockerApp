@@ -1,6 +1,13 @@
 services:
+  blazorwebdocker:
+    image: ${DOCKER_REGISTRY-}blazorwebdocker
+    build:
+      context: .
+      dockerfile: BlazorWebDocker/Dockerfile
+
   apidocker:
     image: ${DOCKER_REGISTRY-}apidocker
     build:
       context: .
       dockerfile: ApiDocker/Dockerfile
+
